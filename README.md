@@ -1,16 +1,20 @@
 # Turbulent Egg Carton Predictions with Deep Learning
 
 A practical introduction to python and deep learning for wall shear stress
-prediction. Jupyter notebook example has been included.
+prediction.
 
 We will be creating a simple U-Unet using the
-[Pytorch](https://pytorch.org/tutorials/) library.
+[Pytorch](https://pytorch.org/tutorials/) library and predicting the wall shear
+stress.
 
-## Python Virtual Environment
+## Setting things up
+
+### Python Virtual Environment
 
 We can create a python [virtual
 environment](https://docs.python.org/3/tutorial/venv.html) by typing the following
-commands in the terminal
+commands in the terminal. Creating a python environment allows us to quickly divide
+up our development environments.
 
 ```powershell
 python -m venv _env
@@ -22,7 +26,7 @@ In visual studio code this can be done using
 py -m venv _env
 ```
 
-## Installing The Requirements
+### Installing The Requirements
 
 To install the requirements
 
