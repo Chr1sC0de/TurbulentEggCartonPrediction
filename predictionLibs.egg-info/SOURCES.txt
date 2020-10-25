@@ -1,0 +1,8 @@
+README.md
+setup.py
+predictionLibs/__init__.py
+predictionLibs.egg-info/PKG-INFO
+predictionLibs.egg-info/SOURCES.txt
+predictionLibs.egg-info/dependency_links.txt
+predictionLibs.egg-info/not-zip-safe
+predictionLibs.egg-info/top_level.txt

@@ -26,3 +26,4 @@
 
 # ignore env
 /_env/*
+/runs/*
