@@ -10,7 +10,7 @@ def mat_to_torch(
     input_feature_names  = ["h", "th", "z"],
     output_feature_names = ["wss_z"]
 ):
-    data_dict         = scio.loadmat(first_mat_file)
+    data_dict         = scio.loadmat(mat_path)
     torch_tensor_data = {key: torch.from_numpy(data) for key, data in data_dict.items       () if not key.startswith("_")}
     x                 = torch.stack([torch_tensor_data[key] for key in input_feature_names])
     y                 = torch.stack([torch_tensor_data[key] for key in output_feature_names])
