@@ -5,7 +5,9 @@ prediction.
 
 We will be creating a simple U-Unet using the
 [Pytorch](https://pytorch.org/tutorials/) library and predicting the wall shear
-stress.
+stress from some surface roughness.
+
+![](./readme_image.PNG)
 
 ## Setting things up
 
