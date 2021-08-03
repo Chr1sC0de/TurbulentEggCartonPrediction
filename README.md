@@ -1,11 +1,11 @@
 # Turbulent Egg Carton Predictions with Deep Learning
 
-A practical introduction to python and deep learning for wall shear stress
+An introduction to python and deep learning for wall shear stress
 prediction.
 
-We will be creating a simple U-Unet using the
+We will be creating a U-Unet using the
 [Pytorch](https://pytorch.org/tutorials/) library and predicting the wall shear
-stress from some surface roughness.
+stress from surface roughness calculated from CFD simulations.
 
 ![](./readme_image.PNG)
 
